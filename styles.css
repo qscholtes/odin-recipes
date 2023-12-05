@@ -1,19 +1,46 @@
+*{
+    background-color:darkcyan;
+}
+.title{
+    color: red;
+    width: 200px;
+    height: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: dotted;
+    margin-left: 250px;
+}
 .intro{
     font-size: 20px;
     background-color: aqua;
     text-align: center;
+    margin: 10px;
+    margin-left: 100px;
+    border: 20px;
+    padding: 8px;
+    box-sizing: border-box;
+    width: 500px;
+    
 }
 .intro.extra{
 font-size: 16px;
 background-color: brown;
 text-align: left;
 font-family: 'Times New Roman', Times, serif;
+display: inline-block;
+border: 5px;
+border-style: double;
+
 }
 .intro.extra#test{
 font-size: 30px;
 background-color: blueviolet;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: end;
+padding: 20px
+;
 }
 .one{
     font-size: 60px;
