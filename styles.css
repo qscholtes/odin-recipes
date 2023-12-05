@@ -1,0 +1,20 @@
+.intro{
+    font-size: 20px;
+    background-color: aqua;
+    text-align: center;
+}
+.intro.extra{
+font-size: 16px;
+background-color: brown;
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+}
+.intro.extra#test{
+font-size: 30px;
+background-color: blueviolet;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: end;
+}
+.one{
+    font-size: 60px;
+}
