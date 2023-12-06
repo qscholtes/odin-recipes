@@ -1,47 +1,61 @@
 *{
-    background-color:darkcyan;
+    background-color:rgb(114, 227, 255) ;
+    box-sizing: border-box;
 }
 .title{
-    color: red;
-    width: 200px;
-    height: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
+    color: rgb(0, 0, 0);
+    width:auto;
+    height: 150px;
     border-style: dotted;
-    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around
+}
+
 .intro{
     font-size: 20px;
     background-color: aqua;
-    text-align: center;
-    margin: 10px;
-    margin-left: 100px;
-    border: 20px;
-    padding: 8px;
-    box-sizing: border-box;
-    width: 500px;
-    
 }
+
+.links {
+    display: flex;
+    justify-content:flex-end;
+    border: 1px salmon;
+    align-self: flex-end;
+    margin-left: 50px;
+
+}
+
 .intro.extra{
 font-size: 16px;
 background-color: brown;
-text-align: left;
 font-family: 'Times New Roman', Times, serif;
-display: inline-block;
-border: 5px;
-border-style: double;
+
 
 }
 .intro.extra#test{
-font-size: 30px;
-background-color: blueviolet;
+font-size: 16px;
+background-color: brown;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-text-align: end;
-padding: 20px
-;
+
+
 }
-.one{
-    font-size: 60px;
+
+.recipe-list{
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 200px;
+    margin: 8px;
+    border-style: groove;
 }
